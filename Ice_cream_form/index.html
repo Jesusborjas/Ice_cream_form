@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+
+    <header>
+    <h1 id="title">Ice Cream Order</h1>
+    </header>
+
+
+
+    <form>
+      <label for="name" id="name-label">Name:</label>
+      <input id="name" type="text" name="name" placeholder="name" required>
+      <br>
+
+      <label for="email" id="email-label">Email:</label>
+      <input id="email" type="email" name="email" placeholder="email" required>
+      <br>
+
+      <label for="number" id="number-label">Age:</label>
+      <input id="number" type="number" name="number" placeholder="18" min="10" max="100" required>
+      <br>
+      <br>
+
+      <label for="dropdown">Size:</label>
+      <select id="dropdown">
+        <option value="small"> Small </option>
+        <option value="medium"> Medium </option>
+        <option value="large"> Large </option>
+        <option value="x_large"> X-Large </option>
+      </select>
+      <br>
+
+      <label for="flavor" id="flavor"> <strong>Flavors:</strong> </label>
+      <br>
+
+      <input id="flavor" type="radio" id="vanilla" name="flavor" value="vanilla">
+      <label for="flavor">Vanilla</label>
+      <br>
+      <input id="flavor" type="radio" id="chocolate" name="flavor" value="chocolate">
+      <label for="flavor">Chocolate</label>
+      <br>
+      <input id="flavor" type="radio" id="strawberry" name="flavor" value="strawberry">
+      <label for="flavor">Strawberry</label>
+      <br>
+      <br>
+      <label for="toppings"><strong>Toppings:</strong></label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="hot_fudge">
+      <label for="checkbox">Hot Fudge</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="caramel">
+      <label for="checkbox">Caramel</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="brownie">
+      <label for="checkbox">Brownies</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="sprinkles">
+      <label for="checkbox">Sprinkles</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="oreos">
+      <label for="checkbox">Oreo's</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="cookie_dough">
+      <label for="checkbox">Cookie Dough</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="whipped_cream">
+      <label for="checkbox">Whipped Cream</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="toppings" value="gummy_bears">
+      <label for="checkbox">Gummy Bears</label>
+      <br>
+      <br>
+
+      <label id="textarea">Additional Comments<label>
+      <br>
+      <textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+      <br>
+
+      <input id="submit" type="submit">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+  </body>
+</html>
